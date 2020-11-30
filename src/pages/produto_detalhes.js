@@ -12,7 +12,7 @@ export default function ProdutoDetalhes(props){
           <Carrossel />
         </Col>
         <Col lg="6" md="6">
-          <CardDetalhes />
+          <CardDetalhes nome={props.nome}/>
         </Col>
       </Row>
     
