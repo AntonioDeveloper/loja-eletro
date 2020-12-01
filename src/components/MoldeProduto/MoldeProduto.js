@@ -1,26 +1,16 @@
-import React, { useState } from 'react';
-import {Row, Col} from 'reactstrap';
-import CardDetalhes from '../ProdutoDetalhes/Card_Detalhes';
-import Carrossel from '../ProdutoDetalhes/Carrossel';
+import React from 'react';
 
 export default function MoldeProduto(props){  
- const [prodUnit, setProdUnit] = useState({});  
-  
-  //console.log(produto);
 
   function produtoAtual(){
       
-      setProdUnit({
+      let i = ({
         id: props.id,
         imagem: props.imagem,
         nome: props.nome,
         preco: props.preco
       });
-      //console.log(prodUnit);
-      //return prodUnit;
-      props.escolherProd(prodUnit);
-    
-
+      props.escolherProd(i);
   }
   
  return (
