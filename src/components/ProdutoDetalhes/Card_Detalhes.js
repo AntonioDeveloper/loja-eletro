@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState} from 'react';
 import {
   Card, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  CardTitle, CardSubtitle
 } from 'reactstrap';
-import Bt from '../MoldeProduto/BtComprar';
+import ModalPedido from './ModalPedido';
 
 const CardDetalhes = (props) => {
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
 
   return (
     <div>
@@ -14,7 +17,7 @@ const CardDetalhes = (props) => {
           <CardTitle tag="h1"></CardTitle>
           <CardSubtitle tag="h3" className="mb-2 text-muted"></CardSubtitle>
             <CardText>{props.nome}</CardText>
-          <Bt />
+            <ModalPedido onClick={toggle}/>
         </CardBody>
       </Card>
     </div>
