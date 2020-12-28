@@ -1,0 +1,9 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #f00;
+  border-radius: 30px;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
