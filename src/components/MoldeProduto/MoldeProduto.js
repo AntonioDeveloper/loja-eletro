@@ -7,8 +7,13 @@ export default function MoldeProduto(props){
       let i = ({
         id: props.id,
         imagem: props.imagem,
+        imagem1: props.imagem1,
+        imagem2: props.imagem2,
+        imagem3: props.imagem3,
+        imagem4: props.imagem4,
         nome: props.nome,
-        preco: props.preco
+        preco: props.preco,
+        texto: props.texto
       });
       props.escolherProd(i);
   }

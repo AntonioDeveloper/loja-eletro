@@ -1,0 +1,29 @@
+.card {
+  border: none;
+}
+
+#descritivo {
+  text-align: left;
+  border-top: 1px dotted #999;
+  padding: 10px 0;
+}
+
+#quantidade {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 20%;
+  display: inline-block;
+}
+
+.menos {
+  display: inline;
+  margin-right: 15px;
+}
+
+.mais {
+  display: inline;
+  margin-left: 15px;
+}

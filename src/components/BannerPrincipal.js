@@ -1,5 +1,6 @@
 import React from 'react';
 import capa from '../imagens/eletronicos.jpg';
+import '../css/banner-principal.css';
 
 export default function BannerPrincipal(){
   return(

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.nav-tabs .nav-link.active {
+  color: #fd8f5f;
+  border-color: #fff #fff #fd8f5f;
+}
+
+.nav-tabs .nav-link {
+  border: 2px solid transparent;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #b75012;
+}
+
+.cards {
+  text-align: center;
+}
+
+.row p {
+  margin-top: 20px;
+  font-size: 0.97rem;
+}

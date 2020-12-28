@@ -25,7 +25,7 @@ import { Collapse,
           <Collapse isOpen={isOpen} navbar>
             <Nav activeKey={location.pathname} className="mr-auto" navbar>
               <NavItem>
-                <NavLink as={Link} href="home.js">Home</NavLink>
+                <NavLink as={Link} href="/">Home</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink as={Link} href="produtos.js">Produtos</NavLink>
