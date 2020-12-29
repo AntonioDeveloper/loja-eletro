@@ -45,6 +45,10 @@ import { Collapse,
               <NavItem>
                 <NavLink as={Link} href="consultas.js">Consultas Gerais</NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink as={Link} href="login.js">Entrar</NavLink>
+              </NavItem>
             </Nav>           
           </Collapse>
         </Navbar>
